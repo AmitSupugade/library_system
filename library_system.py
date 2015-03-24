@@ -87,14 +87,14 @@ class Library(object):
     #Function to check and raise ValueError
     def is_valueError(self, o):
         if o == None:
-            raise ValueError("Null Object")
+            raise ValueError
 
 
         
     #Function to check and raise KeyError
     def is_keyError(self, o):
         if o == None:
-            raise KeyError("Invalid object")
+            raise KeyError
 
 
         
